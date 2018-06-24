@@ -231,6 +231,7 @@ a{
 
 .row_space{
   height: 80px;
+  width: 1903px;
 }
 
 .menubt{
@@ -261,7 +262,6 @@ i{
   display: none;
 }
 .handle1{
-  
   position: fixed;
   width: 100%;
   background-color: #202020;
@@ -275,8 +275,8 @@ i{
 }
 
 .row_i{
-  display: flex;
-  justify-content: center;
+  display: none;
+  
 }
 
 @media  (max-width: 1250px){
@@ -322,6 +322,9 @@ i{
   }
 }
 @media  (max-width: 768px){
+  .row_i{
+    display: block;
+  }
   .statement{
     display: flex;
     align-items: center;
@@ -345,7 +348,26 @@ i{
     display: block;
   }
 }
-    
+@media (max-width: 612px) { 
+  footer p{
+    font-size: 12px;
+  }
+  .icon a{
+    margin-left:15px; 
+  }
+  #facebook1{
+    width: 30px;
+    height: 30px;
+  }
+  #taipeitech1{
+    width: 30px;
+    height: 30px;
+  }
+  #CSIE1{
+    width: 30px;
+    height: 30px;
+  }
+}
     
   
   
