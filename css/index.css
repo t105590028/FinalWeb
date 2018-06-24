@@ -279,7 +279,24 @@ i{
   display: none;
   
 }
-
+.footer1{
+  display: flex;
+  padding: 0;
+  }
+  .footer2{
+    display: none;
+    padding: 0;
+  }
+  .p_{
+    display: flex;
+    justify-content: center;
+    
+  }
+ .icon_{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  }
 @media  (max-width: 1250px){
   .navbar_a{
     display: none;
@@ -328,7 +345,7 @@ i{
     display: flex;
   }
   .statement{
-    display: flex;
+    display: block;
     align-items: center;
     padding: 0 ; 
   }
@@ -339,7 +356,7 @@ i{
     padding: 0 ;
     display: flex;
     transition: 0.4s ease;
-    
+  
   }
   #csie{
     width:0% ;
@@ -348,9 +365,20 @@ i{
   }
   .handle1{
     display: block;
+    
   }
+  .footer1{
+    display: none;
+    }
+    .footer2{
+      display: flex;
+    }
 
+
+    .icon a{
+      margin-left: 0px;
+
+    }
 }
 
-  
   
