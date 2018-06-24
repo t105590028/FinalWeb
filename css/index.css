@@ -283,16 +283,16 @@ i{
   .navbar_a{
     display: none;
   }
-
+  .statement{
+    display: flex;
+    align-items: center;
+    padding: 0 ; 
+  }
   .row_navbar_1 .navbar_container{
     padding: 0 ;
     display: flex;
     transition: 0.4s ease;
-  }
-  .showing{
-    max-height: 20em;
-  }
-    
+  }  
   nav ul li{
     width: 100%;
     box-sizing: border-box;
@@ -305,11 +305,15 @@ i{
   
 }
 @media (max-width: 992px) { 
+  .statement{
+    display: flex;
+    align-items: center;
+    padding: 0 ; 
+  }
   .row_navbar_1 .navbar_container{
     padding: 0 ;
     display: flex;
     transition: 0.4s ease;
-    
   }
   #csie{
     width:0% ;
@@ -318,6 +322,11 @@ i{
   }
 }
 @media  (max-width: 768px){
+  .statement{
+    display: flex;
+    align-items: center;
+    padding: 0 ; 
+  }
   .navbar_row_2{
     display: none;
   }
