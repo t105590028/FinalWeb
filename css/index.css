@@ -5,7 +5,7 @@ body {
   font-size: 15px;
 }
 header{
-  background-image: url(../img/1.png);
+  background-image: url(../img/7.png);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -320,7 +320,7 @@ i{
   .handle{
     display: block;
   }
-  
+
 }
 @media (max-width: 992px) { 
   .statement{
@@ -379,6 +379,7 @@ i{
       margin-left: 0px;
 
     }
+ 
 }
 
   
