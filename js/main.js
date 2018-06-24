@@ -40,24 +40,13 @@ $('#return-to-top').click(function() {      // When arrow is clicked
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();   
     $(window).resize(function() {
-        if (wdth <1233&&$(this).scrollTop()==0) {        
+        if (wdth <1250&&$(this).scrollTop()==0) {        
            $('.row_navbar').addClass('row_navbar_1');
         }
-        else if(wdth>=1233&&$(this).scrollTop()==0){
+        else if(wdth>=1250&&$(this).scrollTop()==0){
             $('.row_navbar').removeClass('row_navbar_1');
         }
-        if(wdth>=1250){
-            $('.row_nav').removeClass('row_nav_1');
-            rownav=0;
-        }
-        else if(wdth<768&&rownav==1){
-            $('.row_nav').removeClass('row_nav_1');
-            $('.row_nav').addClass('row_nav_2');
-        }
-        else if(wdth>=768&&rownav==1){
-            $('.row_nav').removeClass('row_nav_2');
-            $('.row_nav').addClass('row_nav_1');
-        }
+       
     });
 });
 

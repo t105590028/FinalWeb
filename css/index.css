@@ -271,6 +271,7 @@ i{
   cursor: pointer;
   color: #fff;
   font-weight: bold;
+  left: 0;
   display: none;
 }
 
@@ -320,10 +321,11 @@ i{
     height:atuo;
     min-width: 176px;
   }
+
 }
 @media  (max-width: 768px){
   .row_i{
-    display: block;
+    display: flex;
   }
   .statement{
     display: flex;
@@ -347,27 +349,8 @@ i{
   .handle1{
     display: block;
   }
+
 }
-@media (max-width: 612px) { 
-  footer p{
-    font-size: 12px;
-  }
-  .icon a{
-    margin-left:15px; 
-  }
-  #facebook1{
-    width: 30px;
-    height: 30px;
-  }
-  #taipeitech1{
-    width: 30px;
-    height: 30px;
-  }
-  #CSIE1{
-    width: 30px;
-    height: 30px;
-  }
-}
-    
+
   
   
