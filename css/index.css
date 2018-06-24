@@ -178,7 +178,7 @@ footer  p {
   position: fixed;
   width: 100%;
   top:80.5px;
-  left: 0;
+
   padding: 0;
 }
 .row_nav_2{
@@ -214,9 +214,9 @@ li{
   padding: 15px;
   text-align: center;
 }
-    i{
-      font-size: 25px;
-    }
+i{
+ font-size: 25px;
+}
     
 li:hover{
     background-color: #4d4d4d;
@@ -231,7 +231,7 @@ a{
 
 .row_space{
   height: 80px;
-  width: 1903px;
+  width: 100%;
 }
 
 .menubt{
