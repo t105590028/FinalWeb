@@ -1,0 +1,1 @@
+我listing.html裡面用你的navbar特效沒跑出來 你幫我看一下，拉到最上面沒有縮放的感覺 在final裡面
