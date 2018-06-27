@@ -61,6 +61,7 @@ body {
 }
 
 .gallery {
+  margin-top: 10%;
   -webkit-column-gap: 0;
           column-gap: 0;
 }
@@ -302,4 +303,8 @@ a {
   text-transform: uppercase;
   font-size: 0.75em;
   font-weight: 600;
+}
+
+.container {
+  padding-bottom: 5%;
 }
