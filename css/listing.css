@@ -169,11 +169,18 @@ figure {
     padding-right: 15px; */
   }
 }
+@media screen and (max-width: 551px) {
+  .fh5co-cover .desc {
+    top: 45%;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+  }
+}
 .fh5co-cover .desc h2 {
   color: #fff;
   text-transform: uppercase;
   font-size: 80px;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   font-weight: 900 !important;
   text-shadow: 10px 10px 10px  rgba(0, 0, 0, .5);
   transition: .4s ease
@@ -184,7 +191,7 @@ figure {
 
 @media screen and (max-width: 992px) {
   .fh5co-cover .desc h2 {
-    font-size: 60px;
+    font-size: 65px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -204,7 +211,7 @@ figure {
 }
 .fh5co-cover .desc span {
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   font-size: 28px;
   letter-spacing: 1px;
 }
@@ -1097,6 +1104,7 @@ figure {
     min-height:calc(100vh ) ; 
     
     box-sizing: border-box;
+    
   }
   /* header */
   .row_navbar{
@@ -1393,17 +1401,17 @@ figure {
         min-width: 100vw;
         background-image: url(../img/overaly.png);  
         background-repeat: repeat;
+       
     }
   @media  (max-width: 1250px){
      header{
         background-position: center 50px;
         min-height: 800px;
-        height: 100vh;
-    } 
+     }
     .op{
+      min-height:800px;
       height:800px;
-
-    
+  
     }
     .navbar_a{
       display: none;
@@ -1450,8 +1458,14 @@ figure {
   @media  (max-width: 768px){
     header{
         background-position: center 70px;
-       
+        max-height: 800px;
+        height: 5%;
+        min-height: 400px;
     } 
+    .op{
+      min-height:400px;
+      height:400px; 
+    }
     .row_i{
       display: flex;
     }
@@ -1491,6 +1505,24 @@ figure {
   
       }
    
+  }
+  @media screen and (max-width: 551px) {
+    header{
+      min-height: 300px;
+  } 
+    .op{
+      min-height: 300px;
+      height: 300px;
+    }
+  }
+  @media screen and (max-width: 445px) {
+    header{
+      min-height: 270px;
+  } 
+    .op{
+      min-height: 270px;
+      height: 270px;
+    }
   }
   @media  (max-width: 364px){
     header{
