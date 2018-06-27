@@ -1,8 +1,4 @@
 
-<<<<<<< HEAD
-header{
-  background-image: url(./img/QQAA.PNG);
-=======
  body {
   margin: 0;
   padding: 0;
@@ -12,7 +8,6 @@ header{
 }
 header{
   background-image: url(../img/QQAA.png);
->>>>>>> 9ff4784f98733c98da644f39e817ab543ab8d353
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: top center;
@@ -23,7 +18,6 @@ header{
   min-height: 100vh;
   box-sizing: border-box;
 }
-<<<<<<< HEAD
 @media  (max-width: 1250px){
     header{
        background-position: center 50px;
@@ -55,7 +49,6 @@ header{
   .handle{
     display: block;
   }
-=======
 /* header */
 .row_navbar_1 {
     
@@ -112,12 +105,11 @@ header{
 .handle{
   display: block;
 }
->>>>>>> 9ff4784f98733c98da644f39e817ab543ab8d353
+
 
 } 
 
 @media (max-width: 992px) { 
-<<<<<<< HEAD
   .statement{
     display: flex;
     align-items: center;
@@ -225,7 +217,6 @@ header{
   }
   /* ------------------------------------------------------------------- */
  
-=======
 .statement{
   display: flex;
   align-items: center;
@@ -281,7 +272,6 @@ header{
     margin-left: 0px;
 
   }
->>>>>>> 9ff4784f98733c98da644f39e817ab543ab8d353
 
 }
 @media screen and (max-width: 551px) {
@@ -321,8 +311,7 @@ header{
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
 .info-card {
-    float: left;
-    margin-left: 12%;
+  float: left;
 	-webkit-perspective: 600px;
 }
 
@@ -370,8 +359,9 @@ height: 100%;
 .aboutDrom{
     padding-top:2%;
 }
-.text-content{
+.text-content p{
     padding-left:10%;
+    font-size: 120%;
 }
 .aboutTraffic{
     padding-top:2%;
@@ -415,5 +405,30 @@ hr.star-dark:after {
     color: #2C3E50;
     background-color: white;
 }
-  
-    
+
+.introduce{
+    margin-top:10%;
+    margin-left: 40%;
+}
+.introduce-text{
+  margin-top:5%;
+  margin-left:10%;
+  text-align: center;
+}
+
+.trrafic-title{
+  text-align: center;
+}
+.trrafic-title button{
+  font-size: 120%;
+}
+.trrafic-text{
+  text-align: center;
+  font-size: 110%;
+}
+.traffic-contain{
+  padding-bottom: 8%;
+}
+.deparmentIcon{
+  padding:5% 0%;
+}
