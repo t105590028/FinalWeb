@@ -5,8 +5,8 @@ body {
   font-size: 15px;
   font-weight: bold;
 }
-/* header{
-  background-image: url(../img/IMG_9474.JPG);
+header{
+  
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: top center;
@@ -16,7 +16,7 @@ body {
   background-color: #000;
   min-height: 100vh;
   box-sizing: border-box;
-} */
+}
 /* header */
 .row_navbar{
   margin: 0;
@@ -184,6 +184,7 @@ footer  p {
   top:79px;
   padding: 0;
   z-index: 19;
+  position: fixed;
 }
 ._header{
   background-image: none;
@@ -200,6 +201,7 @@ footer  p {
   top:104px;
   padding: 0;
   z-index: 19;
+  position: fixed;
 }
 nav ul{
   background-color: #2c2c2c;
