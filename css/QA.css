@@ -7,14 +7,14 @@
   font-weight: bold;
 }
 header{
-  background-image: url(../img/QQAA.png);
+  /* background-image: url(../img/QQAA.png); */
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: top center;
   background-size: cover;
   text-align: center;
   color: #fff;
-  background-color: #000;
+  background-color: rgb(255, 255, 255);
   min-height: 100vh;
   box-sizing: border-box;
 }
@@ -51,7 +51,7 @@ header{
     display: block;
   }
 =======
->>>>>>> 7294892933f7127fe9ed65b3e966cf22b726f56c
+>>>>>>> 9ab3b8236e840fefb56a4e9fc58e6ebf294dbc06
 /* header */
 .row_navbar_1 {
     
@@ -108,10 +108,6 @@ header{
 .handle{
   display: block;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 7294892933f7127fe9ed65b3e966cf22b726f56c
 
 } 
 
@@ -225,7 +221,7 @@ header{
   /* ------------------------------------------------------------------- */
  
 =======
->>>>>>> 7294892933f7127fe9ed65b3e966cf22b726f56c
+>>>>>>> 9ab3b8236e840fefb56a4e9fc58e6ebf294dbc06
 .statement{
   display: flex;
   align-items: center;
@@ -320,7 +316,8 @@ header{
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
 .info-card {
-  float: left;
+    float: left;
+    margin-left: 12%;
 	-webkit-perspective: 600px;
 }
 
@@ -334,15 +331,15 @@ header{
 
 .front {
 	overflow: hidden;
-	width: 250px;
-	height: 330px;
+	width: 65%;
+	height: auto;
 	position: absolute;
 	z-index: 1;
 }
 
 .back {
-	width: 250px;
-	height: 330px;
+	width: 65%;
+	height: auto;
 	-webkit-transform: rotateY(-180deg);
 }
 
@@ -368,9 +365,8 @@ height: 100%;
 .aboutDrom{
     padding-top:2%;
 }
-.text-content p{
+.text-content{
     padding-left:10%;
-    font-size: 120%;
 }
 .aboutTraffic{
     padding-top:2%;
@@ -414,6 +410,7 @@ hr.star-dark:after {
     color: #2C3E50;
     background-color: white;
 }
+<<<<<<< HEAD
 
 .introduce{
     margin-top:10%;
@@ -441,3 +438,11 @@ hr.star-dark:after {
 .deparmentIcon{
   padding:5% 0%;
 }
+.school{
+  margin-left: 15%;
+  padding-bottom: 5%;
+}
+=======
+  
+    
+>>>>>>> 9ab3b8236e840fefb56a4e9fc58e6ebf294dbc06

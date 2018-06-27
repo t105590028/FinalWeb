@@ -7,6 +7,7 @@
   font-weight: bold;
 }
 header{
+  
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: top center;
@@ -161,7 +162,7 @@ figure {
     font-size: 16px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
     font-weight: 900;
-
+  
   }
 }
 .fh5co-cover.fh5co-cover_2 {
@@ -241,7 +242,7 @@ figure {
   color: #fff !important;
 }
 .fh5co-cover .desc span a:hover.btn, .fh5co-cover .desc span a:focus.btn {
-
+    
   background: #00c3ff !important;
 }
 .fh5co-cover .desc span a.fh5co-site-name {
@@ -259,9 +260,10 @@ figure {
 }
 
 .fh5co-listing {
+
   position: relative;
   width: 100%;
-  margin-top:10%;
+  margin-top: 150px;
   padding-bottom: 5em;
   z-index: 0;
 }
@@ -803,7 +805,7 @@ figure {
 .btn.btn-primary {
   background: #264E86;
   color: #fff;
-
+ 
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
@@ -812,7 +814,7 @@ figure {
   color: #fff !important;
 }
 .btn:hover, .btn:active, .btn:focus {
-
+  
   border: none !important;
   border: 3px solid transparent !important;
   color: #fff;
@@ -823,7 +825,7 @@ figure {
 }
 
 .js .animate-box {
-  /*opacity: 0;*/
+  opacity: 0;
 }
 
 #fh5co-wrapper {
@@ -1103,3 +1105,5 @@ figure {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
