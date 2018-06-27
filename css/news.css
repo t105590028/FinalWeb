@@ -1,3 +1,4 @@
+
 header{
   background-image: url(../img/IMG_9474.JPG);
   background-repeat: no-repeat;
@@ -10,144 +11,32 @@ header{
   min-height: 100vh;
   box-sizing: border-box;
 }
-@media  (max-width: 1250px){
-    header{
-       background-position: center 50px;
-       min-height: 800px;
-    }
-   .op{
-     min-height:800px;
-     height:800px;
- 
-   }
-   .navbar_a{
-     display: none;
-   }
-   .statement{
-     display: flex;
-     align-items: center;
-     padding: 0 ; 
-   }
-   .row_navbar_1 .navbar_container{
-     padding: 0 ;
-     display: flex;
-     transition: 0.4s ease;
-   } nav ul li{
-    width: 100%;
-    box-sizing: border-box;
-    padding: 15px;
-    text-align: center;
-  }
-  .handle{
-    display: block;
-  }
-
-} 
-
-@media (max-width: 992px) { 
-  .statement{
-    display: flex;
-    align-items: center;
-    padding: 0 ; 
-  }
-  .row_navbar_1 .navbar_container{
-    padding: 0 ;
-    display: flex;
-    transition: 0.4s ease;
-  }
-  #csie{
-    width:0% ;
-    height:atuo;
-    min-width: 176px;
-  }
-
+.op{
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-width: 100vw;
+  height: 100vh;  
+  min-height:785px;
+  background-image: url(../img/overaly.png);  
+  background-repeat: repeat;
 }
-@media  (max-width: 768px){
-  .row_i{
-    display: flex;
-  }
-  .statement{
-    display: block;
-    align-items: center;
-    padding: 0 ; 
-  }
-  .navbar_row_2{
-    display: none;
-  }
-  .row_navbar_1 .navbar_container{
-    padding: 0 ;
-    display: flex;
-    transition: 0.4s ease;
-  
-  }
-  #csie{
-    width:0% ;
-    height:atuo;
-    min-width: 176px;
-  }
-  .handle1{
-    display: block;
-  }
-  .footer1{
-    display: none;
-    }
-    .footer2{
-      display: flex;
-    }
-
-
-    .icon a{
-      margin-left: 0px;
-
-    }
- 
-}
-  @media screen and (max-width: 551px) {
-    header{
-      min-height: 300px;
-  } 
-    .op{
-      min-height: 300px;
-      height: 300px;
-    }
-  }
-  @media screen and (max-width: 445px) {
-    header{
-      min-height: 270px;
-  } 
-    .op{
-      min-height: 270px;
-      height: 270px;
-    }
-  }
-  @media  (max-width: 364px){
-    header{
-        min-width: 363px;
-    } 
-    footer{
-      min-width: 363px;
-  } 
-    .op{
-      min-width: 363px;
-    }
-    nav ul{
-      min-width: 363px;
-  }
-
-  }
-/* 頁面頂端透明導覽列 */
-  .row_nav_1{
-    z-index: 19;
-  }
-/* 有底色的導覽列 */
-  .row_nav_2{
-    z-index: 19;
-  }
-  /* 手機板漢堡按鍵 */
-  .handle1{
-    z-index: 20;
-  }
   /* ------------------------------------------------------------------- */
   .news {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 5000px;
+  }
+  #new1 {
+    font-size: 70px;
     color: #00c3ff;
+    text-shadow: 3px 3px 3px rgba(0,0,0,.5);
+    font-weight: 400;
+  }
+  #new2 {
+    padding: 15px;
+    font-size: 40px;
+    color: #202020;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+    font-weight: 600;
   }

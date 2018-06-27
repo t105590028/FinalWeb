@@ -1,8 +1,10 @@
 var y=0;
 var rownav=0;
 var wdth=$(window).width();
+var hight=0;
 $(window).resize(function() {
     wdth=$(window).width();
+    hight=$(window).hight();
 });
 if ($(this).scrollTop() > 0) {        // If page is scrolled more than 50px
     $('#return-to-top').fadeIn(200);    // Fade in the arrow
@@ -20,7 +22,7 @@ $(window).scroll(function() {
     } else if($(this).scrollTop()>0&&y==0&&wdth>1250){
        $('.row_navbar').addClass('row_navbar_1');
        $('body,html').animate({
-            scrollTop : 970.5                       
+            scrollTop : document.getElementById('hd').offsetHeight                       
         }, 750);
     }
     else if($(this).scrollTop() ==0&&wdth>1250){

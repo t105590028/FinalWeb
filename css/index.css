@@ -31,7 +31,7 @@ body {
   position: fixed;
   padding-bottom: 10px;
   background-color: #202020;
- 
+  z-index: 20;
   transition: 0.4s ease;
 }
 .navbar_container{
@@ -183,8 +183,7 @@ footer  p {
   width: 100%;
   top:79px;
   padding: 0;
-  z-index: 0;
-
+  z-index: 19;
 }
 ._header{
   background-image: none;
@@ -200,7 +199,7 @@ footer  p {
   width: 100%;
   top:104px;
   padding: 0;
-  z-index: 0;
+  z-index: 19;
 }
 nav ul{
   background-color: #2c2c2c;
@@ -276,6 +275,7 @@ i{
   color: #fff;
   font-weight: bold;
   display: none;
+  z-index: 20;
 }
 
 .handle1{
@@ -290,6 +290,7 @@ i{
   font-weight: bold;
   left: 0;
   display: none;
+  z-index: 20;
 }
 .display_none{
   display: none;
@@ -322,21 +323,22 @@ i{
   left: 0;
   top: 0;
   min-width: 100vw;
-  min-height: 100vh;
+  height: 100vh;  
+  min-height:800px;
   background-image: url(../img/overaly.png);  
   background-repeat: repeat;
 }
 
 
 
-  /* @media  (max-width: 1250px){
+   @media  (max-width: 1250px){
     header{
        background-position: center 50px;
        min-height: 800px;
     }
    .op{
      min-height:800px;
-     height:800px;
+     
  
    }
    .navbar_a{
@@ -453,4 +455,4 @@ i{
       min-width: 363px;
   }
 
-  } */
+  } 

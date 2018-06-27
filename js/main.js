@@ -20,7 +20,7 @@ $(window).scroll(function() {
     } else if($(this).scrollTop()>0&&y==0&&wdth>1250){
        $('.row_navbar').addClass('row_navbar_1');
        $('body,html').animate({
-            scrollTop : 866.5                       
+            scrollTop : document.getElementById('hd').offsetHeight                  
         }, 750);
     }
     else if($(this).scrollTop() ==0&&wdth>1250){
