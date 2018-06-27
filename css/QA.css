@@ -18,7 +18,6 @@ header{
   min-height: 100vh;
   box-sizing: border-box;
 }
-<<<<<<< HEAD
 @media  (max-width: 1250px){
     header{
        background-position: center 50px;
@@ -50,8 +49,6 @@ header{
   .handle{
     display: block;
   }
-=======
->>>>>>> 9ab3b8236e840fefb56a4e9fc58e6ebf294dbc06
 /* header */
 .row_navbar_1 {
     
@@ -112,7 +109,6 @@ header{
 } 
 
 @media (max-width: 992px) { 
-<<<<<<< HEAD
   .statement{
     display: flex;
     align-items: center;
@@ -220,8 +216,6 @@ header{
   }
   /* ------------------------------------------------------------------- */
  
-=======
->>>>>>> 9ab3b8236e840fefb56a4e9fc58e6ebf294dbc06
 .statement{
   display: flex;
   align-items: center;
@@ -316,8 +310,7 @@ header{
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
 .info-card {
-    float: left;
-    margin-left: 12%;
+  float: left;
 	-webkit-perspective: 600px;
 }
 
@@ -365,8 +358,9 @@ height: 100%;
 .aboutDrom{
     padding-top:2%;
 }
-.text-content{
+.text-content p{
     padding-left:10%;
+    font-size: 120%;
 }
 .aboutTraffic{
     padding-top:2%;
@@ -410,7 +404,6 @@ hr.star-dark:after {
     color: #2C3E50;
     background-color: white;
 }
-<<<<<<< HEAD
 
 .introduce{
     margin-top:10%;
@@ -442,7 +435,3 @@ hr.star-dark:after {
   margin-left: 15%;
   padding-bottom: 5%;
 }
-=======
-  
-    
->>>>>>> 9ab3b8236e840fefb56a4e9fc58e6ebf294dbc06
