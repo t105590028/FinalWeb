@@ -7,18 +7,17 @@
   font-weight: bold;
 }
 header{
-  background-image: url(../img/QQAA.png);
+  /* background-image: url(../img/QQAA.png); */
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: top center;
   background-size: cover;
   text-align: center;
   color: #fff;
-  background-color: #000;
+  background-color: rgb(255, 255, 255);
   min-height: 100vh;
   box-sizing: border-box;
 }
-<<<<<<< HEAD
 @media  (max-width: 1250px){
     header{
        background-position: center 50px;
@@ -50,8 +49,6 @@ header{
   .handle{
     display: block;
   }
-=======
->>>>>>> 7294892933f7127fe9ed65b3e966cf22b726f56c
 /* header */
 .row_navbar_1 {
     
@@ -108,15 +105,10 @@ header{
 .handle{
   display: block;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 7294892933f7127fe9ed65b3e966cf22b726f56c
 
 } 
 
 @media (max-width: 992px) { 
-<<<<<<< HEAD
   .statement{
     display: flex;
     align-items: center;
@@ -224,8 +216,6 @@ header{
   }
   /* ------------------------------------------------------------------- */
  
-=======
->>>>>>> 7294892933f7127fe9ed65b3e966cf22b726f56c
 .statement{
   display: flex;
   align-items: center;
@@ -334,15 +324,15 @@ header{
 
 .front {
 	overflow: hidden;
-	width: 250px;
-	height: 330px;
+	width: 65%;
+	height: auto;
 	position: absolute;
 	z-index: 1;
 }
 
 .back {
-	width: 250px;
-	height: 330px;
+	width: 65%;
+	height: auto;
 	-webkit-transform: rotateY(-180deg);
 }
 
@@ -440,4 +430,8 @@ hr.star-dark:after {
 }
 .deparmentIcon{
   padding:5% 0%;
+}
+.school{
+  margin-left: 15%;
+  padding-bottom: 5%;
 }
