@@ -327,21 +327,9 @@ i{
   background-repeat: repeat;
 }
 
-/* -------------------------- */
 
 
-
-
-
-
-
-
-
-
-
-/* ------------------------------ */
-
-  @media  (max-width: 1250px){
+  /* @media  (max-width: 1250px){
     header{
        background-position: center 50px;
        min-height: 800px;
@@ -464,6 +452,5 @@ i{
     nav ul{
       min-width: 363px;
   }
-  .news h1{
-    color: #00c3ff;
-  }
+
+  } */
