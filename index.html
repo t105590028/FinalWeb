@@ -32,49 +32,23 @@
     
     <title>資工系學會</title>
     <style>
-        
+            
             .swiper-container {
               width: 100%;
-              height: 600px;
-              margin: 20px auto;
+              padding-top: 50px;
+              padding-bottom: 50px;
             }
             .swiper-slide {
-              text-align: center;
-              font-size: 18px;
-              background: #fff;
-              /* Center slide text vertically */
-              display: -webkit-box;
-              display: -ms-flexbox;
-              display: -webkit-flex;
-              display: flex;
-              -webkit-box-pack: center;
-              -ms-flex-pack: center;
-              -webkit-justify-content: center;
-              justify-content: center;
-              -webkit-box-align: center;
-              -ms-flex-align: center;
-              -webkit-align-items: center;
-              align-items: center;
+              background-position: center;
+              background-size: cover;
+              width: 400px;
+              height: 500px;
             }
-                        .append-buttons {
-                text-align: center;
-                margin-top: 20px;
-                }
-                .append-buttons a {
-                display: inline-block;
-                border: 1px solid #007aff;
-                color: #007aff;
-                text-decoration: none;
-                padding: 4px 10px;
-                border-radius: 4px;
-                margin: 0 10px;
-                font-size: 13px;
-                }
-  </style>
+          </style>
   </head>
   <body>
     <header id="hd" style="background-image: url(./img/IMG_9474.JPG);">
-        <!-- <div class="op" id="opid"></div> -->
+       <div class="op" id="opid"></div>
         <div class="container-fluid">
             <div class="row row_navbar">
                 <div class="col-sm-2 col-md-1 col-lg-1"></div>
@@ -177,11 +151,21 @@
                                         <td class="width40">2018-05-08</td>
                                         <td class="width60"><a href="#"> 校外實習職缺公告(萬泰國際物流 校外實習計畫)</a></td>
                                     </tr>
+                                    <tr>
+                                            <td class="width40">2018-05-14</td>
+                                            <td class="width60"><a href="#">校外實習職缺公告(工研院機械所/柏眾系統/華經資訊 校外實習計畫)</a></td>
+                                        </tr>
+                                        <tr class="nodeep">
+                                            <td class="width40">2018-05-08</td>
+                                            <td class="width60"><a href="#"> 校外實習職缺公告(萬泰國際物流 校外實習計畫)</a></td>
+                                        </tr>
                                   </tbody>
                                 </table>
                               </div>
                         </div>
-                        <a href="#">更多訊息</a>
+                        <div class="sub-main">
+                                <button class="button-two"><span>更多消息</span></button>
+                              </div>
                     </div>
                     <div class="y">
                             <div class="activity">
@@ -189,37 +173,63 @@
                                     <p id="new2">Recent Ativities</p>
                                     <div class="swiper-container">
                                             <div class="swiper-wrapper">
-                                              <div class="swiper-slide"><img src="./img/尾牙.png" alt=""style="width: 100%;;"></div>
-                                              <div class="swiper-slide"><img src="./img/尾牙.png" alt=""style="width: 100%;;"></div>
-                                              <div class="swiper-slide"><img src="./img/尾牙.png" alt=""style="width: 100%;;"></div>
-                                              <div class="swiper-slide"><img src="./img/尾牙.png" alt=""style="width: 100%;;"></div>
-                                              <div class="swiper-slide"><img src="./img/尾牙.png" alt=""style="width: 100%;;"></div>
-                                              <div class="swiper-slide"><img src="./img/尾牙.png" alt=""style="width: 100%;;"></div>
-                                              <div class="swiper-slide"><img src="./img/尾牙.png" alt=""style="width: 100%;;"></div>
+                                              <div class="swiper-slide" style="background-image:url(./img/資工營海報.png)"></div>
+                                              <div class="swiper-slide" style="background-image:url(./img/海報原檔.png)"></div>
+                                              <div class="swiper-slide" style="background-image:url(./img/海報預覽.jpg)"></div>
+                                              <!-- <div class="swiper-slide" style="background-image:url(./img/資工營海報.png)"></div>
+                                              <div class="swiper-slide" style="background-image:url(./img/資工營海報.png)"></div>
+                                              <div class="swiper-slide" style="background-image:url(./img/資工營海報.png)"></div>
+                                              <div class="swiper-slide" style="background-image:url(./img/資工營海報.png)"></div>
+                                              <div class="swiper-slide" style="background-image:url(./img/資工營海報.png)"></div>
+                                              <div class="swiper-slide" style="background-image:url(./img/資工營海報.png)"></div>
+                                              <div class="swiper-slide" style="background-image:url(./img/資工營海報.png0)"></div> -->
                                             </div>
                                             <!-- Add Pagination -->
                                             <div class="swiper-pagination"></div>
-                                            <!-- Add Arrows -->
-                                            <div class="swiper-button-next"></div>
-                                            <div class="swiper-button-prev"></div>
                                           </div>
                             </div>
                     </div>
                    <div class="connection">
                         <p id="new1">聯絡資訊</p>
-                        <p id="new2">RContact Information</p>
-                        <div class="row" style="justify-content: center;margin-top: 50px;">
+                        <p id="new2">Contact Information</p>
+                
+                        <div class="map_fb">
                                 <div class="map">
-                                        <iframe width='400px' height='400px' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://maps.google.com.tw/maps?f=q&hl=zh-TW&geocode=&q=106台灣台北市大安區忠孝東路三段1號&z=16&output=embed&t='></iframe>
+                                        <iframe width='500px' height='250px' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://maps.google.com.tw/maps?f=q&hl=zh-TW&geocode=&q=106台灣台北市大安區忠孝東路三段1號&z=16&output=embed&t='></iframe>
                                         <p id="new2">106台灣台北市大安區忠孝東路三段1號</p>
                                         <p id="new2">科研大樓 / 13F / 1320</p>
                                 </div>
                                 <div class="fb">
-                                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FntutcsieFB%2F&tabs=timeline&width=400&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                                   
+                                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FntutcsieFB%2F&tabs=timeline&width=500&height=250&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                                         <p id="new2">國立臺北科技大學資訊工程系</p>
                                         <p id="new2">系學會粉絲專頁</p>
+                                        
                                 </div>
-                                
+                        </div>
+                        <div class="map_fb1">
+                                <div class="map1">
+                                        <iframe width='300px' height='150px' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://maps.google.com.tw/maps?f=q&hl=zh-TW&geocode=&q=106台灣台北市大安區忠孝東路三段1號&z=16&output=embed&t='></iframe>
+                                        <p id="new2">106台灣台北市大安區忠孝東路三段1號</p>
+                                        <p id="new2">科研大樓 / 13F / 1320</p>
+                                </div>
+                                <div class="fb1">
+                                   
+                                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FntutcsieFB%2F&tabs=timeline&width=300&height=150&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="150" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                                        <p id="new2">國立臺北科技大學資訊工程系</p>
+                                        <p id="new2">系學會粉絲專頁</p>
+                                        
+                                </div>
+                        </div>
+                        <div class="line_email">
+                            <div class="line">
+                                    <img src="./img/line.png" >
+                                    <p id="new2" >北科資工系學會 @vys5662y</p>
+                            </div>
+                            <div class="email">
+                                    <img src="./img/email.png" >
+                                    <p id="new2" >　　csiesa@ntut.edu.tw　　</p>
+                            </div>
                         </div>
                    </div>
             <footer>
@@ -264,42 +274,21 @@
             <script src="./js/swiper.min.js"></script>
                                         
             <script>
-                    var appendNumber = 4;
-                    var prependNumber = 1;
                     var swiper = new Swiper('.swiper-container', {
-                      slidesPerView: 3,
+                      effect: 'coverflow',
+                      grabCursor: true,
                       centeredSlides: true,
-                      spaceBetween: 30,
+                      slidesPerView: 'auto',
+                      coverflowEffect: {
+                        rotate: -30,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows : true,
+                      },
                       pagination: {
                         el: '.swiper-pagination',
-                        clickable: true,
                       },
-                      navigation: {
-                        nextEl: '.swiper-button-next',
-                        prevEl: '.swiper-button-prev',
-                      },
-                    });
-                    document.querySelector('.prepend-2-slides').addEventListener('click', function (e) {
-                      e.preventDefault();
-                      swiper.prependSlide([
-                        '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>',
-                        '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>'
-                        ]);
-                    });
-                    document.querySelector('.prepend-slide').addEventListener('click', function (e) {
-                      e.preventDefault();
-                      swiper.prependSlide('<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>');
-                    });
-                    document.querySelector('.append-slide').addEventListener('click', function (e) {
-                      e.preventDefault();
-                      swiper.appendSlide('<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>');
-                    });
-                    document.querySelector('.append-2-slides').addEventListener('click', function (e) {
-                      e.preventDefault();
-                      swiper.appendSlide([
-                        '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>',
-                        '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>'
-                        ]);
                     });
                   </script>
 
