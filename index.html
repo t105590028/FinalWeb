@@ -8,7 +8,10 @@
   	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
   	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
   	<meta name="author" content="FREEHTML5.CO" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
+      <!-- Link Swiper's CSS -->
+      
     	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
       <!-- Animate.css -->
     	<!-- <link rel="stylesheet" href="css/animate.css"> -->
@@ -24,14 +27,53 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/news.css">
     <link rel="stylesheet" href="./css/index.css">
-    
+    <link rel="stylesheet" href="./css/swiper.min.css">
     
     
     <title>資工系學會</title>
-
+    <style>
+        
+            .swiper-container {
+              width: 100%;
+              height: 600px;
+              margin: 20px auto;
+            }
+            .swiper-slide {
+              text-align: center;
+              font-size: 18px;
+              background: #fff;
+              /* Center slide text vertically */
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: -webkit-flex;
+              display: flex;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              -webkit-justify-content: center;
+              justify-content: center;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              -webkit-align-items: center;
+              align-items: center;
+            }
+                        .append-buttons {
+                text-align: center;
+                margin-top: 20px;
+                }
+                .append-buttons a {
+                display: inline-block;
+                border: 1px solid #007aff;
+                color: #007aff;
+                text-decoration: none;
+                padding: 4px 10px;
+                border-radius: 4px;
+                margin: 0 10px;
+                font-size: 13px;
+                }
+  </style>
   </head>
   <body>
-    <header id="hd">
+    <header id="hd" style="background-image: url(./img/IMG_9474.JPG);">
         <!-- <div class="op" id="opid"></div> -->
         <div class="container-fluid">
             <div class="row row_navbar">
@@ -91,8 +133,95 @@
             <div class="displaystate">
                     <div class="news">
                         <p id="new1">最新消息</p>
-                        <p id="new2">new</p>
+                        <p id="new2">News</p>
+                        <div>
+                            <div class="tbl-header">
+                                <table cellpadding="0" cellspacing="0" border="0">
+                                  <thead>
+                                    <tr>
+                                      <th class="width40">日期</th>
+                                      <th class="width60">公告標題</th>
+                                    </tr>
+                                  </thead>
+                                </table>
+                              </div>
+                             
+                              <div class="tbl-content">
+                                <table cellpadding="0" cellspacing="0" border="0">
+                                  <tbody>
+                                    <tr class="nodeep">
+                                        <td class="width40">2018-06-14</td>
+                                        <td class="width60" > <a href="#">【專題演講】分組報告(劉傳銘/謝東儒/張厥偉老師實驗室)</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="width40">2018-06-07</td>
+                                        <td class="width60"><a href="#">分組報告(柯開維/吳和庭/王正豪老師實驗室)</a></td>
+                                    </tr>
+                                    <tr class="nodeep">
+                                        <td class="width40">2018-06-02</td>
+                                        <td class="width60"><a href="#">校外實習職缺公告(ARRIS集團 台灣博科通信系統有限公司 校外實習計畫)</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="width40">2018-05-22</td>
+                                        <td class="width60"><a href="#">歡迎白敦文教授自107學年度加入本系師資陣容</a></td>
+                                    </tr>
+                                    <tr class="nodeep"> 
+                                        <td class="width40">2018-05-21</td>
+                                        <td class="width60"><a href="#">校外實習職缺公告(聯瞻資訊 校外實習計畫)</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="width40">2018-05-14</td>
+                                        <td class="width60"><a href="#">校外實習職缺公告(工研院機械所/柏眾系統/華經資訊 校外實習計畫)</a></td>
+                                    </tr>
+                                    <tr class="nodeep">
+                                        <td class="width40">2018-05-08</td>
+                                        <td class="width60"><a href="#"> 校外實習職缺公告(萬泰國際物流 校外實習計畫)</a></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                        </div>
+                        <a href="#">更多訊息</a>
                     </div>
+                    <div class="y">
+                            <div class="activity">
+                                    <p id="new3">近期活動</p>
+                                    <p id="new2">Recent Ativities</p>
+                                    <div class="swiper-container">
+                                            <div class="swiper-wrapper">
+                                              <div class="swiper-slide"><img src="./img/尾牙.png" alt=""style="width: 100%;;"></div>
+                                              <div class="swiper-slide"><img src="./img/尾牙.png" alt=""style="width: 100%;;"></div>
+                                              <div class="swiper-slide"><img src="./img/尾牙.png" alt=""style="width: 100%;;"></div>
+                                              <div class="swiper-slide"><img src="./img/尾牙.png" alt=""style="width: 100%;;"></div>
+                                              <div class="swiper-slide"><img src="./img/尾牙.png" alt=""style="width: 100%;;"></div>
+                                              <div class="swiper-slide"><img src="./img/尾牙.png" alt=""style="width: 100%;;"></div>
+                                              <div class="swiper-slide"><img src="./img/尾牙.png" alt=""style="width: 100%;;"></div>
+                                            </div>
+                                            <!-- Add Pagination -->
+                                            <div class="swiper-pagination"></div>
+                                            <!-- Add Arrows -->
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                          </div>
+                            </div>
+                    </div>
+                   <div class="connection">
+                        <p id="new1">聯絡資訊</p>
+                        <p id="new2">RContact Information</p>
+                        <div class="row" style="justify-content: center;margin-top: 50px;">
+                                <div class="map">
+                                        <iframe width='400px' height='400px' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://maps.google.com.tw/maps?f=q&hl=zh-TW&geocode=&q=106台灣台北市大安區忠孝東路三段1號&z=16&output=embed&t='></iframe>
+                                        <p id="new2">106台灣台北市大安區忠孝東路三段1號</p>
+                                        <p id="new2">科研大樓 / 13F / 1320</p>
+                                </div>
+                                <div class="fb">
+                                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FntutcsieFB%2F&tabs=timeline&width=400&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                                        <p id="new2">國立臺北科技大學資訊工程系</p>
+                                        <p id="new2">系學會粉絲專頁</p>
+                                </div>
+                                
+                        </div>
+                   </div>
             <footer>
                 <div class="col-sm-12 col-md-12 col-lg-12 footer1">
                         <div class="col-sm-1 col-md-1 col-lg-1"></div>
@@ -132,9 +261,47 @@
               <!-- TOP鍵 -->
             <a href="JavaScript:" id="return-to-top">Top</i></a>
             </div>
-    
-            
-    
+            <script src="./js/swiper.min.js"></script>
+                                        
+            <script>
+                    var appendNumber = 4;
+                    var prependNumber = 1;
+                    var swiper = new Swiper('.swiper-container', {
+                      slidesPerView: 3,
+                      centeredSlides: true,
+                      spaceBetween: 30,
+                      pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                      },
+                      navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                      },
+                    });
+                    document.querySelector('.prepend-2-slides').addEventListener('click', function (e) {
+                      e.preventDefault();
+                      swiper.prependSlide([
+                        '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>',
+                        '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>'
+                        ]);
+                    });
+                    document.querySelector('.prepend-slide').addEventListener('click', function (e) {
+                      e.preventDefault();
+                      swiper.prependSlide('<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>');
+                    });
+                    document.querySelector('.append-slide').addEventListener('click', function (e) {
+                      e.preventDefault();
+                      swiper.appendSlide('<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>');
+                    });
+                    document.querySelector('.append-2-slides').addEventListener('click', function (e) {
+                      e.preventDefault();
+                      swiper.appendSlide([
+                        '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>',
+                        '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>'
+                        ]);
+                    });
+                  </script>
 
     <script src="js/jquery.min.js"></script>
     <!-- jQuery Easing -->
@@ -157,6 +324,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
     <script src="./js/main.js"></script>
   </body>
 </html>
