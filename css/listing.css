@@ -133,6 +133,18 @@ figure {
   font-weight: 900;
 
 }
+@media screen and (max-width: 1250px) {
+  .fh5co-cover .btn {
+    padding: 1em 3em;
+    opacity: .9;
+    border: 3px solid #00c3ff !important;
+    background: #00c3ff !important;
+    font-size: 16px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    font-weight: 900;
+  
+  }
+}
 .fh5co-cover.fh5co-cover_2 {
   height: 600px;
 }
@@ -153,29 +165,41 @@ figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover .desc {
     top: 40%;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
   }
 }
 .fh5co-cover .desc h2 {
   color: #fff;
   text-transform: uppercase;
   font-size: 80px;
-  margin-bottom: 50px;
+  margin-bottom: 5%;
   font-weight: 900 !important;
   text-shadow: 10px 10px 10px  rgba(0, 0, 0, .5);
+  transition: .4s ease
 }
 .fh5co-cover .desc h2 strong {
   font-weight: 700;
 }
-@media screen and (max-width: 1250px) {
-    .fh5co-cover .desc h2 {
-      font-size: 60px;
-    }
+
+@media screen and (max-width: 992px) {
+  .fh5co-cover .desc h2 {
+    font-size: 60px;
   }
+}
 @media screen and (max-width: 768px) {
   .fh5co-cover .desc h2 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 551px) {
+  .fh5co-cover .desc h2 {
     font-size: 40px;
+  }
+}
+@media screen and (max-width: 445px) {
+  .fh5co-cover .desc h2 {
+    font-size: 30px;
   }
 }
 .fh5co-cover .desc span {
@@ -754,8 +778,9 @@ figure {
 .btn.btn-primary {
   background: #264E86;
   color: #fff;
-  background: transparent !important;
+ 
 }
+
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
   background: #264E86;
@@ -1363,7 +1388,8 @@ figure {
         position: absolute;
         left: 0;
         top: 0;
-        min-height: 100vh;
+        min-height:800px;
+        height: 100vh;
         min-width: 100vw;
         background-image: url(../img/overaly.png);  
         background-repeat: repeat;
@@ -1371,7 +1397,14 @@ figure {
   @media  (max-width: 1250px){
      header{
         background-position: center 50px;
+        min-height: 800px;
+        height: 100vh;
     } 
+    .op{
+      height:800px;
+
+    
+    }
     .navbar_a{
       display: none;
     }
@@ -1417,6 +1450,7 @@ figure {
   @media  (max-width: 768px){
     header{
         background-position: center 70px;
+       
     } 
     .row_i{
       display: flex;
@@ -1458,4 +1492,11 @@ figure {
       }
    
   }
-  
+  @media  (max-width: 364px){
+    header{
+        min-width: 363px;
+    } 
+    .op{
+      min-width: 363px;
+    }
+  }

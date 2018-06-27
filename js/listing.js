@@ -19,9 +19,9 @@ $(window).scroll(function() {
         $('#return-to-top').fadeIn(200);    // Fade in the arrow
     } else if($(this).scrollTop()>0&&y==0&&wdth>1250){
        $('.row_navbar').addClass('row_navbar_1');
-       $('body,html').animate({
+       /*$('body,html').animate({
             scrollTop : 817.5                       
-        }, 750);
+        }, 750);*/
     }
     else if($(this).scrollTop() ==0&&wdth>1250){
         $('.row_navbar').removeClass('row_navbar_1');
