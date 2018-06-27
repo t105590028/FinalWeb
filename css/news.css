@@ -1,0 +1,25 @@
+header{
+  background-image: url(../img/IMG_9474.JPG);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: top center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+  .row_nav_1{
+
+    z-index: 19;
+  
+  }
+  .row_nav_2{
+
+    z-index: 19;
+  
+  }
+  .handle1{
+    z-index: 20;
+  }

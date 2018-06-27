@@ -5,7 +5,7 @@ body {
   font-size: 15px;
   font-weight: bold;
 }
-header{
+/* header{
   background-image: url(../img/IMG_9474.JPG);
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -16,7 +16,7 @@ header{
   background-color: #000;
   min-height: 100vh;
   box-sizing: border-box;
-}
+} */
 /* header */
 .row_navbar{
   margin: 0;
@@ -31,7 +31,7 @@ header{
   position: fixed;
   padding-bottom: 10px;
   background-color: #202020;
-  z-index: 2;
+ 
   transition: 0.4s ease;
 }
 .navbar_container{
@@ -328,9 +328,7 @@ i{
 }
 
 /* -------------------------- */
-.newss {
-  background-color: #00c3ff;
-}
+
 
 
 
@@ -420,7 +418,6 @@ i{
   }
   .handle1{
     display: block;
-    z-index: 20;
   }
   .footer1{
     display: none;
@@ -464,4 +461,9 @@ i{
     .op{
       min-width: 363px;
     }
+    nav ul{
+      min-width: 363px;
+  }
+  .news h1{
+    color: #00c3ff;
   }
