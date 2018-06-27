@@ -8,7 +8,10 @@
   	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
   	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
   	<meta name="author" content="FREEHTML5.CO" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
+      <!-- Link Swiper's CSS -->
+      
     	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
       <!-- Animate.css -->
     	<!-- <link rel="stylesheet" href="css/animate.css"> -->
@@ -24,11 +27,23 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/news.css">
     <link rel="stylesheet" href="./css/index.css">
-    
+    <link rel="stylesheet" href="./css/swiper.min.css">
     
     
     <title>資工系學會</title>
-
+    <style>
+            .swiper-container {
+              width: 80%;
+              padding-top: 50px;
+              padding-bottom: 50px;
+            }
+            .swiper-slide {
+              background-position: center;
+              background-size: cover;
+              width:450px;
+              height: 600px;
+            }
+          </style>
   </head>
   <body>
     <header id="hd">
@@ -91,8 +106,94 @@
             <div class="displaystate">
                     <div class="news">
                         <p id="new1">最新消息</p>
-                        <p id="new2">new</p>
+                        <p id="new2">News</p>
+                        <div>
+                            <div class="tbl-header">
+                                <table cellpadding="0" cellspacing="0" border="0">
+                                  <thead>
+                                    <tr>
+                                      <th class="width40">日期</th>
+                                      <th class="width60">公告標題</th>
+                                    </tr>
+                                  </thead>
+                                </table>
+                              </div>
+                             
+                              <div class="tbl-content">
+                                <table cellpadding="0" cellspacing="0" border="0">
+                                  <tbody>
+                                    <tr class="nodeep">
+                                        <td class="width40">2018-06-14</td>
+                                        <td class="width60" > <a href="https://csie.ntut.edu.tw/csie/Chinese/index.html#">【專題演講】分組報告(劉傳銘/謝東儒/張厥偉老師實驗室)</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="width40">2018-06-07</td>
+                                        <td class="width60"><a href="#">分組報告(柯開維/吳和庭/王正豪老師實驗室)</a></td>
+                                    </tr>
+                                    <tr class="nodeep">
+                                        <td class="width40">2018-06-02</td>
+                                        <td class="width60"><a href="#">校外實習職缺公告(ARRIS集團 台灣博科通信系統有限公司 校外實習計畫)</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="width40">2018-05-22</td>
+                                        <td class="width60"><a href="#">歡迎白敦文教授自107學年度加入本系師資陣容</a></td>
+                                    </tr>
+                                    <tr class="nodeep"> 
+                                        <td class="width40">2018-05-21</td>
+                                        <td class="width60"><a href="#">校外實習職缺公告(聯瞻資訊 校外實習計畫)</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="width40">2018-05-14</td>
+                                        <td class="width60"><a href="#">校外實習職缺公告(工研院機械所/柏眾系統/華經資訊 校外實習計畫)</a></td>
+                                    </tr>
+                                    <tr class="nodeep">
+                                        <td class="width40">2018-05-08</td>
+                                        <td class="width60"><a href="#"> 校外實習職缺公告(萬泰國際物流 校外實習計畫)</a></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                        </div>
+                        <a href="#">更多訊息</a>
                     </div>
+                    <div class="y">
+                            <div class="activity">
+                                    <p id="new3">近期活動</p>
+                                    <p id="new2">Recent Ativities</p>
+                                    <div class="swiper-container">
+                                            <div class="swiper-wrapper">
+                                              <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/1)"></div>
+                                              <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/2)"></div>
+                                              <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/3)"></div>
+                                              <div class="swiper-slide" style="background-image:url(./img/尾牙.png)"></div>
+                                              <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/5)"></div>
+                                              <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/6)"></div>
+                                              <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/7)"></div>
+                                              <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/8)"></div>
+                                              
+                                            </div>
+                                            <!-- Add Pagination -->
+                                            <div class="swiper-pagination"></div>
+                                          </div>
+                            </div>
+                    </div>
+                   <div class="connection">
+                        <p id="new1">聯絡資訊</p>
+                        <p id="new2">RContact Information</p>
+                        <div class="row" style="justify-content: center;margin-top: 50px;">
+                                <div class="map">
+                                        <iframe width='400px' height='400px' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://maps.google.com.tw/maps?f=q&hl=zh-TW&geocode=&q=106台灣台北市大安區忠孝東路三段1號&z=16&output=embed&t='></iframe>
+                                        <p id="new2">106台灣台北市大安區忠孝東路三段1號</p>
+                                        <p id="new2">科研大樓 / 13F / 1320</p>
+                                </div>
+                                <div class="fb">
+                                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FntutcsieFB%2F&tabs=timeline&width=400&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                                        <p id="new2">國立臺北科技大學資訊工程系</p>
+                                        <p id="new2">系學會粉絲專頁</p>
+                                </div>
+                                
+                        </div>
+                   </div>
             <footer>
                 <div class="col-sm-12 col-md-12 col-lg-12 footer1">
                         <div class="col-sm-1 col-md-1 col-lg-1"></div>
@@ -132,8 +233,25 @@
               <!-- TOP鍵 -->
             <a href="JavaScript:" id="return-to-top">Top</i></a>
             </div>
-    
-            
+            <script src="./js/swiper.min.js"></script>
+            <script>
+                    var swiper = new Swiper('.swiper-container', {
+                      effect: 'coverflow',
+                      grabCursor: true,
+                      centeredSlides: true,
+                      slidesPerView: 'auto',
+                      coverflowEffect: {
+                        rotate: -10,
+                        stretch: 0,
+                        depth: 200,
+                        modifier: 1,
+                        slideShadows : true,
+                      },
+                      pagination: {
+                        el: '.swiper-pagination',
+                      },
+                    });
+                  </script>
     
 
     <script src="js/jquery.min.js"></script>
@@ -157,6 +275,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
     <script src="./js/main.js"></script>
   </body>
 </html>

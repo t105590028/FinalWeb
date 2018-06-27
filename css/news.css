@@ -21,115 +21,141 @@ header{
   background-image: url(../img/overaly.png);  
   background-repeat: repeat;
 }
-<<<<<<< HEAD
-@media  (max-width: 768px){
-  .row_i{
-    display: flex;
-  }
-  .statement{
-    display: block;
-    align-items: center;
-    padding: 0 ; 
-  }
-  .navbar_row_2{
-    display: none;
-  }
-  .row_navbar_1 .navbar_container{
-    padding: 0 ;
-    display: flex;
-    transition: 0.4s ease;
-  
-  }
-  #csie{
-    width:0% ;
-    height:atuo;
-    min-width: 176px;
-  }
-  .handle1{
-    display: block;
-  }
-  .footer1{
-    display: none;
-    }
-    .footer2{
-      display: flex;
-    }
-
-
-    .icon a{
-      margin-left: 0px;
-
-    }
- 
-}
-  @media screen and (max-width: 551px) {
-    header{
-      min-height: 300px;
-  } 
-    .op{
-      min-height: 300px;
-      height: 300px;
-    }
-  }
-  @media screen and (max-width: 445px) {
-    header{
-      min-height: 270px;
-  } 
-    .op{
-      min-height: 270px;
-      height: 270px;
-    }
-  }
-  @media  (max-width: 364px){
-    header{
-        min-width: 363px;
-    } 
-    footer{
-      min-width: 363px;
-  } 
-    .op{
-      min-width: 363px;
-    }
-    nav ul{
-      min-width: 363px;
-  }
-
-  }
-  .row_navbar_1{
-    z-index: 10;
-  }
-/* 頁面頂端透明導覽列 */
-  .row_nav_1{
-    z-index: 19;
-  }
-/* 有底色的導覽列 */
-  .row_nav_2{
-    z-index: 19;
-  }
-  /* 手機板漢堡按鍵 */
-  .handle1{
-    z-index: 20;
-  }
-  /* ------------------------------------------------------------------- */
- 
-=======
   /* ------------------------------------------------------------------- */
   .news {
-    margin-top: 100px;
     text-align: center;
-    margin-bottom: 5000px;
+    margin: 0 25%;
+    margin-top: 150px;
+    margin-bottom:320px; 
+  }
+  .y{
+    background-color: #161616;
+    width: 100%;
+    height: 1000px;
+    margin-bottom:0px; 
+  }
+  .activity{
+    padding-top: 75px;
+    text-align: center;
+    margin: 0 15%;
+    
+    margin-top: 50px;
+  }
+  .connection{
+ 
+    text-align: center;
+    margin-bottom:1000px
+  }
+  .connection #new2{
+    margin: 0;
+    
+  }
+  .map{
+    margin:0 5%;
+  }
+  .fb{
+    margin:0 5%;
+  }
+  
+  @media  (max-width : 1250px){
+    
+    .news {
+      margin: 50px 15%;
+    }
   }
   #new1 {
-    font-size: 70px;
-    color: #00c3ff;
-    text-shadow: 3px 3px 3px rgba(0,0,0,.5);
+    font-size: 50px;
+    color: #202020;
+    text-shadow: 3px 3px 3px rgba(82, 82, 82, 0.2);
     font-weight: 400;
+    margin: 0;
   }
   #new2 {
-    padding: 15px;
-    font-size: 40px;
-    color: #202020;
-    text-shadow: 2px 2px 2px rgba(0,0,0,.5);
-    font-weight: 600;
+    padding-top: 0;
+    font-size: 20px;
+    color: #777777;
+    text-shadow: 3px 3px 3px rgba(82, 82, 82, 0.2);
+    font-weight: 400;
   }
->>>>>>> 9ff4784f98733c98da644f39e817ab543ab8d353
+  #new3 {
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px rgba(82, 82, 82, 0.2);
+    font-weight: 400;
+    margin: 0;
+  }
+  /* -------------------- */
+  
+
+table{
+  width:100%;
+  table-layout: fixed;
+  
+}
+.width40{
+  width: 40%;
+  /* border-right: 3px solid rgb(255, 255, 255); */
+  /* border-bottom: 3px solid rgb(255, 255, 255); */
+}
+.width60{
+  width: 60%;
+  /* border-bottom: 3px solid rgb(255, 255, 255); */
+}
+.tbl-header{
+  background-color: rgb(0, 195, 255);
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+ }
+ 
+.tbl-content{
+  height:400px;
+  overflow-x:auto;
+  margin-top: 3px;
+  background-color: rgb(231, 231, 231);
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+.nodeep td{
+  background-color: rgb(243, 242, 242);
+}
+th{
+  padding: 10px 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+td{
+  padding: 15px;
+  text-align: center;
+  vertical-align:middle;
+  font-weight: bolde;
+  font-size: 16px;
+  color: rgb(5, 5, 5);
+ 
+}
+td a:hover{
+  color: #0066ff;
+  text-decoration:none;
+}
+/* follow me template */
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+} 
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+@media  (max-width: 364px){
+  .displaystate {
+    min-width: 363px;
+  }
+  header{
+    min-width: 363px;
+  }
+} 

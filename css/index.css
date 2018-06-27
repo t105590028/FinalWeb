@@ -268,7 +268,7 @@ i{
 .handle{
   width: 100%;
   background-color: transparent;
-  text-align: left;
+  text-align: center;
   box-sizing: border-box;
   padding: 15px 10px;
   cursor: pointer;

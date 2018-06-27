@@ -22,6 +22,7 @@ $(window).scroll(function() {
        $('body,html').animate({
             scrollTop : document.getElementById('hd').offsetHeight                  
         }, 750);
+        
     }
     else if($(this).scrollTop() ==0&&wdth>1250){
         $('.row_navbar').removeClass('row_navbar_1');
