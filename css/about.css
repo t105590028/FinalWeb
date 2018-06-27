@@ -5,3 +5,153 @@ header{
     height: 1px;
     display: none;
 }
+.back{
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+.story{
+    padding-right:20%;
+    padding-top:13%;
+    font-size: 18px;
+    transform: 0.4s ease;
+}
+.c{
+    padding-left: 15%;
+}
+.z{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 50px;
+    padding: 200px 0;
+}
+.z p{
+    margin-bottom: 50px ;
+}
+.c img{
+    padding-top: 5%;
+}
+.x{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 50px;
+  
+}
+.x p{
+    margin-bottom: 50px ;
+}
+
+@media  (max-width:1270px){
+    .story{
+        padding-top:9%;
+        font-size: 18px;
+        transform: 0.4s ease;
+    }
+    .c img{
+        padding-top: 10%;
+    }
+}
+@media  (max-width:1250px){
+    .story{
+        padding-top:9%;
+        font-size: 18px;
+        transform: 0.4s ease;
+    }
+    .c img{
+        padding-top: 10%;
+    }
+}
+@media  (max-width:1060px){
+    .story{
+
+        padding-top:5%;
+        font-size: 18px;
+        transform: 0.4s ease;
+    }
+}
+@media  (max-width:961px){
+    .story{
+
+        padding-top:5%;
+        font-size: 17px;
+        transform: 0.4s ease;
+    }
+    .c img{
+        padding-top: 10%;
+    }
+}
+@media  (max-width:901px){
+    .story{
+
+        padding-top:4%;
+        font-size: 16px;
+        transform: .4 ease;
+    }
+    .c img{
+        padding-top: 10%;
+    }
+}
+@media  (max-width:849px){
+    .story{
+
+        padding-top:4%;
+        font-size: 15px;
+        transform: .4 ease;
+    }
+    .c img{
+        padding-top: 10%;
+    }
+}
+@media  (max-width:795px){
+    .story{
+
+        padding-top:4%;
+        font-size: 14px;
+        transform: .4 ease;
+    }
+    .c img{
+        padding-top: 10%;
+    }
+}
+@media  (max-width:745px){
+    .story{
+
+        padding-top:4%;
+        font-size: 13px;
+        transform: .4 ease;
+    }
+    .c img{
+        padding-top: 10%;
+    }
+}
+@media  (max-width:691px){
+    .story{
+
+        padding-top:4%;
+        font-size: 12px;
+        transform: .4 ease;
+    }
+    .c img{
+        padding-top: 10%;
+    }
+}
+@media  (max-width:632px){
+    .story{
+
+        padding-top:4%;
+        font-size: 8px;
+        transform: .4 ease;
+    }
+    .c img{
+        padding-top: 15%;
+    }
+}
+@media  (max-width:577px){
+    .story{
+        padding: 0 10%;
+    }
+    .c {
+        padding: 0;
+    }
+    .c img{
+        padding-top: 0%;
+    }
+}
