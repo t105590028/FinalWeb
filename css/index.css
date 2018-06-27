@@ -186,7 +186,14 @@ footer  p {
   z-index: 19;
   position: fixed;
 }
-
+._header{
+  background-image: none;
+  min-height: 1px;
+  height: 1px;
+}
+._header .op{
+  display: none;
+}
 
 .row_nav_2{
   display: block;
@@ -315,9 +322,11 @@ i{
   
 .op{
   position: absolute;
-  width: 100%;
+  left: 0;
+  top: 0;
+  min-width: 100vw;
   height: 100vh;  
-  min-height: 800px;
+  min-height:800px;
   background-image: url(../img/overaly.png);  
   background-repeat: repeat;
 }
