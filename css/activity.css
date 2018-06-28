@@ -23,7 +23,8 @@ h1 {
 .card {
   float: left;
   padding: 0 1.7rem;
-  width: 50%;
+  width: 30%;
+  margin: 1% 1%;
 }
 .card .menu-content {
   margin: 0;
@@ -98,7 +99,7 @@ h1 {
 }
 
 .example-1 .wrapper {
-  background: url(https://images.unsplash.com/photo-1496979551903-46e46589a88b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cda12b505afa1beb06e49d89014cbd65&auto=format&fit=crop&w=634&q=80) 20% 1%/cover no-repeat;
+  background-size: contain;
 }
 .example-1 .date {
   position: absolute;
@@ -196,71 +197,6 @@ h1 {
   top: -10px;
 }
 
-.example-2 .wrapper {
-  background: url(https://tvseriescritic.files.wordpress.com/2016/10/stranger-things-bicycle-lights-children.jpg) center/cover no-repeat;
-}
-.example-2 .wrapper:hover .menu-content span {
-  -webkit-transform: translate(-50%, -10px);
-          transform: translate(-50%, -10px);
-  opacity: 1;
-}
-.example-2 .header {
-  color: #fff;
-  padding: 1em;
-}
-.example-2 .header::before, .example-2 .header::after {
-  content: '';
-  display: table;
-}
-.example-2 .header::after {
-  clear: both;
-}
-.example-2 .header .date {
-  float: left;
-  font-size: 12px;
-}
-.example-2 .menu-content {
-  float: right;
-}
-.example-2 .menu-content li {
-  margin: 0 5px;
-  position: relative;
-}
-.example-2 .menu-content span {
-  transition: all 0.3s;
-  opacity: 0;
-}
-.example-2 .data {
-  color: #fff;
-  -webkit-transform: translateY(calc(70px + 4em));
-          transform: translateY(calc(70px + 4em));
-}
-.example-2 .title a {
-  color: #fff;
-}
-.example-2 .button {
-  display: block;
-  width: 100px;
-  margin: 2em auto 1em;
+.container {
   text-align: center;
-  font-size: 12px;
-  color: #fff;
-  line-height: 1;
-  position: relative;
-  font-weight: 700;
-}
-.example-2 .button::after {
-  content: '\2192';
-  opacity: 0;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
-  transition: all 0.3s;
-}
-.example-2 .button:hover::after {
-  -webkit-transform: translate(5px, -50%);
-          transform: translate(5px, -50%);
-  opacity: 1;
 }
